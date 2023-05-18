@@ -1,0 +1,51 @@
+#userProfileData h2{
+        /* Ridhwan Nordin */
+
+ /*    position: absolute; */
+    left: 25.9%;
+    right: 35.83%;
+    top: 12.24%;
+    bottom: 57.14%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+
+#userProfileData p{
+    /* @ridzjcob */
+
+/*     position: absolute; */
+    left: 25.9%;
+    right: 53.94%;
+    top: 63.78%;
+    bottom: 9.69%;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    /* identical to box height */
+    display: flex;
+    align-items: center;
+
+    color: rgba(0, 0, 0, 0.8);
+}
+
+#userProfileImg img{
+    /* Ellipse */
+
+   /*  position: absolute; */
+    left: 0%;
+    right: 79.86%;
+    top: 0%;
+    bottom: 0%;
+
+}
