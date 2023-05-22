@@ -6,5 +6,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./nav-bar.component.css']
 })
 export class NavBarComponent {
+  activeItem: string = ''; // Tracks the currently active item
+
+  onItemClick(item: string): void {
+    this.activeItem = item;
+  }
+
+  
 
 }

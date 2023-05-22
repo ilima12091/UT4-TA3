@@ -1,5 +1,16 @@
-<button id="Discover">Discover</button>
-<button id="Search">Search</button>
-<button id="Upload">Upload Picture</button>
-<button id="Chat">Chat</button>
-<button id="Profile">Profile</button>
+<li id="Discover" [class.active]="activeItem === 'Discover'" (click)="onClick('Discover')">
+    <a href="#"><i class="fa-solid fa-house"></i>Discover</a>
+  </li>
+  <li id="Search" [class.active]="activeItem === 'Search'" (click)="onClick('Search')">
+    <a href="#"><i class="fa-solid fa-solid fa-magnifying-glass"></i>Search</a>    
+  </li>
+  <li id="Upload" [class.active]="activeItem === 'Upload'" (click)="onClick('Upload')">
+    <a href="#"><i class="fa-solid fa-plus"></i>Upload Picture</a>
+  </li>
+  <li id="Chat" [class.active]="activeItem === 'Chat'" (click)="onClick('Chat')">
+    <a href="#"><i class="fa-regular fa-comment"></i>Chat</a>
+  </li>
+  <li id="Profile" [class.active]="activeItem === 'Profile'" (click)="onClick('Profile')">
+    <a href="#"><i class="fa-solid fa-user"></i>Profile</a>
+  </li>
+  
