@@ -1,7 +1,13 @@
-#userProfileData h2{
-        /* Ridhwan Nordin */
+#userProfile{
+    position: absolute;
+    width: 243px;
+    height: 49px;
+    left: 0px;
+    top: 630px; 
+}
 
- /*    position: absolute; */
+#userProfileData h2{
+    position: absolute;
     left: 25.9%;
     right: 35.83%;
     top: 12.24%;
@@ -19,9 +25,7 @@
 }
 
 #userProfileData p{
-    /* @ridzjcob */
-
-/*     position: absolute; */
+    position: absolute;
     left: 25.9%;
     right: 53.94%;
     top: 63.78%;
@@ -40,12 +44,9 @@
 }
 
 #userProfileImg img{
-    /* Ellipse */
-
-   /*  position: absolute; */
+   position: absolute;
     left: 0%;
     right: 79.86%;
     top: 0%;
     bottom: 0%;
-
 }
