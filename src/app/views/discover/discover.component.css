@@ -8,7 +8,9 @@
 }
 
 @media (max-width: 900px) {
-  .discover {
-    text-align: center;
+  .discover-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
 }
