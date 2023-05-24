@@ -1,16 +1,32 @@
-<li id="Discover" [class.active]="activeItem === 'Discover'" (click)="onClick('Discover')">
-    <a href="#"><i class="fa-solid fa-house"></i>Discover</a>
+<ul class="nav-items">
+  <li>
+    <a routerLink="/discover" routerLinkActive="active-option">
+      <i class="fa-solid fa-house"></i>
+      <span>Discover</span>
+    </a>
   </li>
-  <li id="Search" [class.active]="activeItem === 'Search'" (click)="onClick('Search')">
-    <a href="#"><i class="fa-solid fa-solid fa-magnifying-glass"></i>Search</a>    
+  <li>
+    <a routerLink="/search" routerLinkActive="active-option">
+      <i class="fa-solid fa-solid fa-magnifying-glass"></i>
+      <span>Search</span>
+    </a>
   </li>
-  <li id="Upload" [class.active]="activeItem === 'Upload'" (click)="onClick('Upload')">
-    <a href="#"><i class="fa-solid fa-plus"></i>Upload Picture</a>
+  <li>
+    <a routerLink="/upload-picture" routerLinkActive="active-option">
+      <i class="fa-solid fa-plus"></i>
+      <span>Upload Picture</span>
+    </a>
   </li>
-  <li id="Chat" [class.active]="activeItem === 'Chat'" (click)="onClick('Chat')">
-    <a href="#"><i class="fa-regular fa-comment"></i>Chat</a>
+  <li>
+    <a routerLink="/chat" routerLinkActive="active-option">
+      <i class="fa-regular fa-comment"></i>
+      <span>Chat</span>
+    </a>
   </li>
-  <li id="Profile" [class.active]="activeItem === 'Profile'" (click)="onClick('Profile')">
-    <a href="#"><i class="fa-solid fa-user"></i>Profile</a>
+  <li>
+    <a routerLink="/profile" routerLinkActive="active-option">
+      <i class="fa-solid fa-user"></i>
+      <span>Profile</span>
+    </a>
   </li>
-  
+</ul>

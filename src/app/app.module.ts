@@ -1,14 +1,19 @@
 import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 
-import { CardComponent } from './card/card.component';
+import { CardComponent } from './components/card/card.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { NavBarItemsComponent } from './nav-bar/nav-bar-items/nav-bar-items.component';
 import { HttpClientModule } from '@angular/common/http';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { AppRoutingModule } from './app-routing.module';
 import { BrowserModule } from '@angular/platform-browser';
-import { UserProfileComponent } from './component/user-profile/user-profile.component';
+import { UserProfileComponent } from './components/user-profile/user-profile.component';
+import { DiscoverComponent } from './views/discover/discover.component';
+import { SearchComponent } from './views/search/search.component';
+import { UploadPictureComponent } from './views/upload-picture/upload-picture.component';
+import { ChatComponent } from './views/chat/chat.component';
+import { ProfileComponent } from './views/profile/profile.component';
 
 @NgModule({
   declarations: [
@@ -18,14 +23,14 @@ import { UserProfileComponent } from './component/user-profile/user-profile.comp
     CarouselComponent,
     CardComponent,
     UserProfileComponent,
-
+    DiscoverComponent,
+    SearchComponent,
+    UploadPictureComponent,
+    ChatComponent,
+    ProfileComponent,
   ],
-  imports: [
-    HttpClientModule,
-    AppRoutingModule, 
-    BrowserModule
-  ],
+  imports: [HttpClientModule, AppRoutingModule, BrowserModule],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

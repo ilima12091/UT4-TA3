@@ -1,0 +1,11 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+}
+
+@media (max-width: 900px) {
+  .card {
+    width: calc(100vw - 2rem);
+  }
+}

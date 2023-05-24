@@ -2,31 +2,30 @@ import { Injectable } from '@angular/core';
 import { UserProfile } from '../interface/user-profile';
 
 @Injectable({
-  providedIn: 'root'
+  providedIn: 'root',
 })
 export class UserProfileService {
+  constructor() {}
 
-  constructor() { }
-
-  userProfile: UserProfile[] = [
+  userProfiles: UserProfile[] = [
     {
       userImg: 'assets/user1.png',
       userName: 'Ridhwan Nordin',
-      userRole: '@ridzjcob'
+      userRole: '@ridzjcob',
     },
     {
       userImg: 'assets/user2.png',
       userName: 'Clem Onojeghuo',
-      userRole: '@clemono2'
+      userRole: '@clemono2',
     },
     {
       userImg: 'assets/user3.png',
       userName: 'Jon Tyson',
-      userRole: '@jontyson'
-    }
+      userRole: '@jontyson',
+    },
   ];
 
-  getUserProfile(): UserProfile[] {
-    return this.userProfile;
+  getUserProfiles(): UserProfile[] {
+    return this.userProfiles;
   }
 }
