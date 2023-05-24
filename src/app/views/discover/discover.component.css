@@ -2,9 +2,16 @@
   padding: 1rem;
 }
 
-.discover-description {
+.discover-header-title {
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+
+.discover-header-description {
   font-weight: bold;
   font-family: "Roboto", sans-serif;
+  margin-bottom: 1.5rem;
+  font-size: 1rem;
 }
 
 @media (max-width: 900px) {
