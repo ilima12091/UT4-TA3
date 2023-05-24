@@ -10,19 +10,19 @@ export class UserProfileService {
 
   userProfile: UserProfile[] = [
     {
-      userImg: 'assets/images/user.png',
-      userName: 'John Doe',
-      userRole: '@johndoe'
+      userImg: 'assets/user1.png',
+      userName: 'Ridhwan Nordin',
+      userRole: '@ridzjcob'
     },
     {
-      userImg: 'assets/images/user2.png',
-      userName: 'Juana de Arco',
-      userRole: '@juana.arco'
+      userImg: 'assets/user2.png',
+      userName: 'Clem Onojeghuo',
+      userRole: '@clemono2'
     },
     {
-      userImg: 'assets/images/user2.png',
-      userName: 'Maria de los Angeles',
-      userRole: '@maria.angeles'
+      userImg: 'assets/user3.png',
+      userName: 'Jon Tyson',
+      userRole: '@jontyson'
     }
   ];
 
