@@ -4,7 +4,7 @@
   width: 600px;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 650px) {
   .card {
     width: calc(100vw - 2rem);
   }
