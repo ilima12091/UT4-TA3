@@ -1,0 +1,28 @@
+.user-profile {
+  display: flex;
+  gap: 1rem;
+  margin: 1.5rem 0px;
+}
+
+.user-profile-image {
+  height: 50px;
+  width: 50px;
+}
+
+.user-profile-data {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-family: "Roboto", sans-serif;
+}
+
+.user-profile-data-user {
+  font-size: 1rem;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.user-profile-data-username {
+  font-size: 0.75rem;
+  margin: 0px;
+}

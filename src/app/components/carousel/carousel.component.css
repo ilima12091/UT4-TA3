@@ -2,17 +2,31 @@
   overflow: auto;
   gap: 1rem;
   display: flex;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
 }
 
 .carousel-container::-webkit-scrollbar {
-  display: none;
+  height: 6px;
 }
 
-/* TODO: eliminar al agregar el componente de las cards */
-.carousel-container div {
-  height: 400px;
-  min-width: 400px;
-  background-color: blue;
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+@media (max-width: 650px) {
+  .carousel-container {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .carousel-container::-webkit-scrollbar {
+    display: none;
+  }
 }

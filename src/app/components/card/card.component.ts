@@ -1,11 +1,11 @@
 import { Component, Input } from '@angular/core';
-import { Card } from 'src/app/interfaces/card'
+import { UserProfile } from 'src/app/interface/user-profile';
 
 @Component({
   selector: 'app-card',
   templateUrl: './card.component.html',
-  styleUrls: ['./card.component.css']
+  styleUrls: ['./card.component.css'],
 })
 export class CardComponent {
-  /*@Input() userData!: User;*/ 
+  @Input() userProfile!: UserProfile;
 }
