@@ -6,3 +6,9 @@
   font-weight: bold;
   font-family: "Roboto", sans-serif;
 }
+
+@media (max-width: 900px) {
+  .discover {
+    text-align: center;
+  }
+}
