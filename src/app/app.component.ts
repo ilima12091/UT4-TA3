@@ -8,10 +8,4 @@ import { UserProfile } from './interface/user-profile';
 })
 export class AppComponent {
   title = 'UT4-TA3';
-
-  userProfile : UserProfile = {      
-  userImg: 'assets/images/user.png',
-  userName: 'John Doe',
-  userRole: '@johndoe'
-}
 }
