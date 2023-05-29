@@ -2,8 +2,8 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 
 import { CardComponent } from './components/card/card.component';
-import { NavBarComponent } from './nav-bar/nav-bar.component';
-import { NavBarItemsComponent } from './nav-bar/nav-bar-items/nav-bar-items.component';
+import { NavBarComponent } from './components/nav-bar/nav-bar.component';
+import { NavBarItemsComponent } from './components/nav-bar/nav-bar-items/nav-bar-items.component';
 import { HttpClientModule } from '@angular/common/http';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { AppRoutingModule } from './app-routing.module';
