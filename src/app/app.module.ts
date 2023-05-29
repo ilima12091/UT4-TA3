@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
-
 import { CardComponent } from './components/card/card.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { NavBarItemsComponent } from './components/nav-bar/nav-bar-items/nav-bar-items.component';
@@ -14,6 +13,7 @@ import { SearchComponent } from './views/search/search.component';
 import { UploadPictureComponent } from './views/upload-picture/upload-picture.component';
 import { ChatComponent } from './views/chat/chat.component';
 import { ProfileComponent } from './views/profile/profile.component';
+import { SearchContainerComponent } from './components/search-container/search-container.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +28,7 @@ import { ProfileComponent } from './views/profile/profile.component';
     UploadPictureComponent,
     ChatComponent,
     ProfileComponent,
+    SearchContainerComponent,
   ],
   imports: [HttpClientModule, AppRoutingModule, BrowserModule],
   providers: [],
