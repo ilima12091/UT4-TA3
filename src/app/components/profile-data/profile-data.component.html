@@ -1,10 +1,11 @@
 <div class="user-profile">
     <img class="user-profile-image" [src]="userProfile.userImg" alt="notFound" />
     <div class="user-profile-data">
-      <h2 class="user-profile-data-user">{{ userProfile.userName }}</h2>
+      <h2 class="user-profile-name">{{ userProfile.userName }}</h2>
       <p> {{ userProfile.address }}</p>
     </div>
-    <button> Follow {{userProfile.userName}}</button>
-    <button> Message </button>
-  </div>
+<div class="button-container">
+  <button class="follow-button">Follow</button>
+  <button class="message-button">Message</button>
+</div>
   
