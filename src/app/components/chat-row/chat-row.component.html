@@ -1,0 +1,15 @@
+<a [routerLink]="'/chats/' + chat.id">
+  <div class="chat-row">
+    <img
+      class="chat-row-image"
+      [src]="chat.receiverProfileImageUrl"
+      [alt]="chat.receiver"
+    />
+    <div class="chat-row-content">
+      <h3 class="chat-row-content-title">{{ chat.receiver }}</h3>
+      <p class="chat-row-content-description">
+        {{ chat.messages[chat.messages.length - 1] }}
+      </p>
+    </div>
+  </div>
+</a>

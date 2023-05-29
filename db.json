@@ -1,0 +1,21 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "chats": [
+        {
+          "id": 0,
+          "receiver": "José",
+          "receiverProfileImageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPIRZg7IRYI9plKI-IRd5K2SmpP7-s7Z1tAoLBEQAWlD7pbyTa_0VJ&usqp=CAE&s",
+          "messages": ["Hola", "¿Cómo estás?", "¿Qué tal?"]
+        },
+        {
+          "id": 1,
+          "receiver": "José2",
+          "receiverProfileImageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPIRZg7IRYI9plKI-IRd5K2SmpP7-s7Z1tAoLBEQAWlD7pbyTa_0VJ&usqp=CAE&s",
+          "messages": ["Hola", "¿Cómo estás?"]
+        }
+      ]
+    }
+  ]
+}

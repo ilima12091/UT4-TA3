@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { UserProfile } from 'src/app/interface/user-profile';
-import { UserProfileService } from 'src/app/service/user-profile.service';
+import { UserProfileService } from 'src/app/services/user-profile-service/user-profile.service';
 
 @Component({
   selector: 'app-discover',

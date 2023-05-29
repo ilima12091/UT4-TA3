@@ -1,0 +1,43 @@
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.chat-row {
+  display: flex;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.3);
+  padding: 1rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.chat-row:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.chat-row-image {
+  border-radius: 100%;
+  height: 64px;
+  width: 64px;
+}
+
+.chat-row-content {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 1rem;
+  gap: 0.5rem;
+}
+
+.chat-row-content-title,
+.chat-row-content-description {
+  margin: 0px;
+  padding: 0px;
+}
+
+.chat-row-content-title {
+  font-weight: 700;
+}
+
+.chat-row-content-description {
+  font-weight: 400;
+}

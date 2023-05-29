@@ -1,0 +1,19 @@
+.chats {
+  padding: 1rem;
+}
+
+.chats-header-title {
+  margin: 0px 0px 2rem 0px;
+  font-size: 2rem;
+}
+
+.chats-content {
+  border-top: 0.5px solid rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 900px) {
+  .chats-header {
+    display: flex;
+    justify-content: center;
+  }
+}

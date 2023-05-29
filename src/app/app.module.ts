@@ -12,8 +12,10 @@ import { UserProfileComponent } from './components/user-profile/user-profile.com
 import { DiscoverComponent } from './views/discover/discover.component';
 import { SearchComponent } from './views/search/search.component';
 import { UploadPictureComponent } from './views/upload-picture/upload-picture.component';
-import { ChatComponent } from './views/chat/chat.component';
+import { ChatsComponent } from './views/chats/chats.component';
 import { ProfileComponent } from './views/profile/profile.component';
+import { ChatRowComponent } from './components/chat-row/chat-row.component';
+import { ChatComponent } from './components/chat/chat.component';
 
 @NgModule({
   declarations: [
@@ -26,8 +28,10 @@ import { ProfileComponent } from './views/profile/profile.component';
     DiscoverComponent,
     SearchComponent,
     UploadPictureComponent,
-    ChatComponent,
+    ChatsComponent,
     ProfileComponent,
+    ChatRowComponent,
+    ChatComponent,
   ],
   imports: [HttpClientModule, AppRoutingModule, BrowserModule],
   providers: [],

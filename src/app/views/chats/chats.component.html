@@ -1,0 +1,8 @@
+<section class="chats">
+  <div class="chats-header">
+    <h1 class="chats-header-title">Chats</h1>
+  </div>
+  <div class="chats-content">
+    <app-chat-row *ngFor="let chat of chats" [chat]="chat" />
+  </div>
+</section>
