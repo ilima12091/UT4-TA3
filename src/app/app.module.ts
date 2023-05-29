@@ -14,6 +14,8 @@ import { SearchComponent } from './views/search/search.component';
 import { UploadPictureComponent } from './views/upload-picture/upload-picture.component';
 import { ChatComponent } from './views/chat/chat.component';
 import { ProfileComponent } from './views/profile/profile.component';
+import { ProfileImagesComponent } from './components/profile-images/profile-images.component';
+import { ProfileDataComponent } from './components/profile-data/profile-data.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +30,8 @@ import { ProfileComponent } from './views/profile/profile.component';
     UploadPictureComponent,
     ChatComponent,
     ProfileComponent,
+    ProfileImagesComponent,
+    ProfileDataComponent,
   ],
   imports: [HttpClientModule, AppRoutingModule, BrowserModule],
   providers: [],
