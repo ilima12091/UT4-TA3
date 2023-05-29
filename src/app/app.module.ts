@@ -16,6 +16,7 @@ import { ChatsComponent } from './views/chats/chats.component';
 import { ProfileComponent } from './views/profile/profile.component';
 import { ChatRowComponent } from './components/chat-row/chat-row.component';
 import { ChatComponent } from './components/chat/chat.component';
+import { MessageComponent } from './components/message/message.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +33,7 @@ import { ChatComponent } from './components/chat/chat.component';
     ProfileComponent,
     ChatRowComponent,
     ChatComponent,
+    MessageComponent,
   ],
   imports: [HttpClientModule, AppRoutingModule, BrowserModule],
   providers: [],

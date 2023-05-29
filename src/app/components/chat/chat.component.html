@@ -1,1 +1,12 @@
-<p>chat works!</p>
+<section class="chat">
+  <div class="chat-header">
+    <h1>{{ chat?.receiver }}</h1>
+  </div>
+  <div class="chat-messages">
+    <app-message
+      *ngFor="let message of chat?.messages"
+      [message]="message"
+      [receiverProfileImageUrl]="chat?.receiverProfileImageUrl ?? ''"
+    />
+  </div>
+</section>

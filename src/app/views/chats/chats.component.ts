@@ -11,7 +11,7 @@ export class ChatsComponent {
   chats: Chat[] = [];
 
   constructor(private chatsService: ChatsService) {
-    chatsService.getUserChats(0).then((chats) => {
+    this.chatsService.getUserChats(0).then((chats) => {
       this.chats = chats ?? [];
     });
   }

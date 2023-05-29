@@ -7,13 +7,35 @@
           "id": 0,
           "receiver": "José",
           "receiverProfileImageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPIRZg7IRYI9plKI-IRd5K2SmpP7-s7Z1tAoLBEQAWlD7pbyTa_0VJ&usqp=CAE&s",
-          "messages": ["Hola", "¿Cómo estás?", "¿Qué tal?"]
+          "messages": [
+            {
+              "id": 0,
+              "direction": "IN",
+              "content": "Hola"
+            },
+            {
+              "id": 1,
+              "direction": "OUT",
+              "content": "Hola!"
+            }
+          ]
         },
         {
           "id": 1,
           "receiver": "José2",
           "receiverProfileImageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPIRZg7IRYI9plKI-IRd5K2SmpP7-s7Z1tAoLBEQAWlD7pbyTa_0VJ&usqp=CAE&s",
-          "messages": ["Hola", "¿Cómo estás?"]
+          "messages": [
+            {
+              "id": 0,
+              "direction": "IN",
+              "content": "Hola"
+            },
+            {
+              "id": 1,
+              "direction": "OUT",
+              "content": "Hola!"
+            }
+          ]
         }
       ]
     }
