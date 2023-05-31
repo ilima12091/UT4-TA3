@@ -1,0 +1,25 @@
+.message {
+  display: flex;
+  gap: 1rem;
+}
+
+.message-out {
+  flex-direction: row-reverse;
+}
+
+.message-profile-image {
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+}
+
+.message-content {
+  background-color: rgba(0, 0, 0, 0.03);
+  border-radius: 0px 6px 6px 6px;
+  padding: 1rem;
+  margin: 0px;
+}
+
+.message-content-out {
+  border-radius: 6px 0px 6px 6px;
+}

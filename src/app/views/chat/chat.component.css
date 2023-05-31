@@ -1,0 +1,37 @@
+.chat {
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+  border-bottom: 0.5px solid rgba(0, 0, 0, 0.3);
+  padding: 0.5rem;
+}
+
+.chat-header-arrow {
+  font-size: 1.5rem;
+}
+
+.chat-header-title {
+  margin: 0px;
+  justify-self: center;
+  text-align: center;
+}
+
+.chat-messages {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 2rem 1rem;
+}
+
+.chat-message-in {
+  align-self: flex-start;
+}
+
+.chat-message-out {
+  align-self: flex-end;
+}
