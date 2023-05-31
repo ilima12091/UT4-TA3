@@ -2,11 +2,20 @@
   "users": [
     {
       "id": 0,
+      "userImg": "assets/user1.png",
+      "userName": "Ridhwan Nordin",
+      "userRole": "@ridzjcob",
+      "imageUrl": "image1.png",
       "chats": [
         {
           "id": 0,
-          "receiver": "José",
-          "receiverProfileImageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPIRZg7IRYI9plKI-IRd5K2SmpP7-s7Z1tAoLBEQAWlD7pbyTa_0VJ&usqp=CAE&s",
+          "receiver": {
+            "id": 1,
+            "userImg": "assets/user2.png",
+            "userName": "Clem Onojeghuo",
+            "userRole": "@clemono2",
+            "imageUrl": "image2.png"
+          },
           "messages": [
             {
               "id": 0,
@@ -17,23 +26,57 @@
               "id": 1,
               "direction": "OUT",
               "content": "Hola!"
+            },
+            {
+              "id": 2,
+              "direction": "OUT",
+              "content": "Cómo estás?"
+            },
+            {
+              "id": 3,
+              "direction": "IN",
+              "content": "Bien y vos?"
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "userImg": "assets/user2.png",
+      "userName": "Clem Onojeghuo",
+      "userRole": "@clemono2",
+      "imageUrl": "image2.png",
+      "chats": [
         {
-          "id": 1,
-          "receiver": "José2",
-          "receiverProfileImageUrl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPIRZg7IRYI9plKI-IRd5K2SmpP7-s7Z1tAoLBEQAWlD7pbyTa_0VJ&usqp=CAE&s",
+          "id": 0,
+          "receiver": {
+            "id": 1,
+            "userImg": "assets/user1.png",
+            "userName": "Ridhwan Nordin",
+            "userRole": "@ridzjcob",
+            "imageUrl": "image1.png"
+          },
           "messages": [
             {
               "id": 0,
-              "direction": "IN",
+              "direction": "OUT",
               "content": "Hola"
             },
             {
               "id": 1,
-              "direction": "OUT",
+              "direction": "IN",
               "content": "Hola!"
+            },
+            {
+              "id": 2,
+              "direction": "IN",
+              "content": "Cómo estás?"
+            },
+            {
+              "id": 3,
+              "direction": "OUT",
+              "content": "Bien y vos?"
             }
           ]
         }

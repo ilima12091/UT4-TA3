@@ -1,4 +1,16 @@
-<div class="message">
-  <img class="message-profile-image" [src]="receiverProfileImageUrl" />
-  <p [class]="'message-content'">{{ message.content }}</p>
+<div
+  class="message"
+  [ngClass]="{
+    'message-out': message.direction === 'OUT'
+  }"
+>
+  <img class="message-profile-image" [src]="user?.userImg" />
+  <p
+    class="message-content"
+    [ngClass]="{
+      'message-content-out': message.direction === 'OUT'
+    }"
+  >
+    {{ message.content }}
+  </p>
 </div>

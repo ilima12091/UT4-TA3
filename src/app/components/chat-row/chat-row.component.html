@@ -2,13 +2,13 @@
   <div class="chat-row">
     <img
       class="chat-row-image"
-      [src]="chat.receiverProfileImageUrl"
-      [alt]="chat.receiver"
+      [src]="chat.receiver.userImg"
+      [alt]="chat.receiver.userName"
     />
     <div class="chat-row-content">
-      <h3 class="chat-row-content-title">{{ chat.receiver }}</h3>
+      <h3 class="chat-row-content-title">{{ chat.receiver.userName }}</h3>
       <p class="chat-row-content-description">
-        {{ chat.messages[chat.messages.length - 1] }}
+        {{ chat.messages[chat.messages.length - 1].content }}
       </p>
     </div>
   </div>

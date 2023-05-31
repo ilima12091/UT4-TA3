@@ -1,6 +1,6 @@
 export enum Direction {
-  IN,
-  OUT,
+  IN = 'IN',
+  OUT = 'OUT',
 }
 
 export interface Message {

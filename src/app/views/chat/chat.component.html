@@ -1,0 +1,18 @@
+<section class="chat">
+  <div class="chat-header">
+    <a routerLink="/chats">
+      <i class="fa-solid fa-chevron-left chat-header-arrow"></i>
+    </a>
+    <h1 class="chat-header-title">{{ chat?.receiver?.userName }}</h1>
+  </div>
+  <div class="chat-messages">
+    <app-message
+      *ngFor="let message of chat?.messages"
+      [class]="
+        message.direction === 'IN' ? 'chat-message-in' : 'chat-message-out'
+      "
+      [message]="message"
+      [user]="message.direction === 'IN' ? chat?.receiver : currentUser"
+    />
+  </div>
+</section>

@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { UserProfile } from 'src/app/interface/user-profile';
 import { Message } from 'src/app/interfaces/message';
 
 @Component({
@@ -8,5 +9,5 @@ import { Message } from 'src/app/interfaces/message';
 })
 export class MessageComponent {
   @Input() message!: Message;
-  @Input() receiverProfileImageUrl: string = '';
+  @Input() user?: UserProfile;
 }

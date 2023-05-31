@@ -5,7 +5,7 @@ import { SearchComponent } from './views/search/search.component';
 import { UploadPictureComponent } from './views/upload-picture/upload-picture.component';
 import { ChatsComponent } from './views/chats/chats.component';
 import { ProfileComponent } from './views/profile/profile.component';
-import { ChatComponent } from './components/chat/chat.component';
+import { ChatComponent } from './views/chat/chat.component';
 
 const routes: Routes = [
   {

@@ -15,7 +15,7 @@ import { UploadPictureComponent } from './views/upload-picture/upload-picture.co
 import { ChatsComponent } from './views/chats/chats.component';
 import { ProfileComponent } from './views/profile/profile.component';
 import { ChatRowComponent } from './components/chat-row/chat-row.component';
-import { ChatComponent } from './components/chat/chat.component';
+import { ChatComponent } from './views/chat/chat.component';
 import { MessageComponent } from './components/message/message.component';
 
 @NgModule({

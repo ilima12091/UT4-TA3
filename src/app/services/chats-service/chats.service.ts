@@ -17,9 +17,12 @@ export class ChatsService {
   }
 
   async getChat(userId: number, chatId: number): Promise<Chat | undefined> {
-    const response = await (
+    const userResponse = await (
       await fetch(`${this.BASE_URL}/users/${userId}`)
     ).json();
-    return response.chats.find((chat: Chat) => chat.id === chatId) ?? undefined;
+    const userChat = userResponse.chats.find(
+      (chat: Chat) => chat.id === chatId
+    );
+    return userChat ?? undefined;
   }
 }
