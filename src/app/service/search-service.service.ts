@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { SearchObject } from '../interfaces/search-object';
 
+
 @Injectable({
   providedIn: 'root'
 })
@@ -12,22 +13,22 @@ export class SearchServiceService {
     {
       id:'Dog',
       name:'Dog 1',
-      imageUrl:'dog1.jpg'
+      imageUrl:'assets/dog1.jpg'
     },
     {
       id:'Dog',
       name:'Dog 2',
-      imageUrl:'dog2.jpg'
+      imageUrl:'assets/dog2.jpg'
     },
     {
       id:'Dog',
       name:'Dog 3',
-      imageUrl:'dog3.jpg'
+      imageUrl:'assets/dog3.jpg'
     },
     {
       id:'Dog',
       name:'Dog 4',
-      imageUrl:'dog4.jpg'
+      imageUrl:'assets/dog4.jpg'
     },
     {
       id:'Cat',
@@ -50,6 +51,9 @@ export class SearchServiceService {
   
   getSearchObjects(): SearchObject[] {
     return this.searchObjects;
+  }
+  getSearchObjectById(id: string) : SearchObject | undefined {
+    return this.searchObjects.find((searchObject) => searchObject.id === id);
   }
 
   

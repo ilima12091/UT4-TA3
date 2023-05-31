@@ -14,7 +14,7 @@ import { UploadPictureComponent } from './views/upload-picture/upload-picture.co
 import { ChatComponent } from './views/chat/chat.component';
 import { ProfileComponent } from './views/profile/profile.component';
 import { SearchContainerComponent } from './components/search-container/search-container.component';
-
+import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,7 +30,7 @@ import { SearchContainerComponent } from './components/search-container/search-c
     ProfileComponent,
     SearchContainerComponent,
   ],
-  imports: [HttpClientModule, AppRoutingModule, BrowserModule],
+  imports: [HttpClientModule, AppRoutingModule, BrowserModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent],
 })

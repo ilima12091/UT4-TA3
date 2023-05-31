@@ -1,1 +1,7 @@
-<p>search-container works!</p>
+<div class="search-container">
+    <div class="search-result" *ngFor="let result of searchResults">
+      <img [src]="result.imageUrl" [alt]="result.name" class="search-result-image" />
+      <p class="search-result-name">{{ result.name }}</p>
+    </div>
+  </div>
+  
