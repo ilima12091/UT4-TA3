@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { SearchServiceService } from 'src/app/service/search-service.service';
+import { SearchServiceService } from 'src/app/services/user-profile-service/search-service.service';
 import { SearchObject } from 'src/app/interfaces/search-object';
 
 @Component({

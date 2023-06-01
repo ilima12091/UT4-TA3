@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
-import { SearchObject } from '../interfaces/search-object';
-
+import { SearchObject } from 'src/app/interfaces/search-object';
 
 @Injectable({
   providedIn: 'root'

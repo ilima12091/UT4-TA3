@@ -11,10 +11,14 @@ import { UserProfileComponent } from './components/user-profile/user-profile.com
 import { DiscoverComponent } from './views/discover/discover.component';
 import { SearchComponent } from './views/search/search.component';
 import { UploadPictureComponent } from './views/upload-picture/upload-picture.component';
-import { ChatComponent } from './views/chat/chat.component';
+import { ChatsComponent } from './views/chats/chats.component';
 import { ProfileComponent } from './views/profile/profile.component';
 import { SearchContainerComponent } from './components/search-container/search-container.component';
 import { FormsModule } from '@angular/forms';
+import { ChatRowComponent } from './components/chat-row/chat-row.component';
+import { ChatComponent } from './views/chat/chat.component';
+import { MessageComponent } from './components/message/message.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -26,9 +30,12 @@ import { FormsModule } from '@angular/forms';
     DiscoverComponent,
     SearchComponent,
     UploadPictureComponent,
-    ChatComponent,
+    ChatsComponent,
     ProfileComponent,
     SearchContainerComponent,
+    ChatRowComponent,
+    ChatComponent,
+    MessageComponent
   ],
   imports: [HttpClientModule, AppRoutingModule, BrowserModule, FormsModule],
   providers: [],

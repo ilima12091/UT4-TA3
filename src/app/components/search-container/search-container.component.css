@@ -1,9 +1,4 @@
-/* search.component.css */
-.search {
-    /* Your existing styles for the search component */
-  }
-  
-  /* search-container.component.css */
+
   .search-container {
     display: flex;
     flex-wrap: wrap;
