@@ -8,9 +8,10 @@
   <div class="chat-messages">
     <app-message
       *ngFor="let message of chat?.messages"
-      [class]="
-        message.direction === 'IN' ? 'chat-message-in' : 'chat-message-out'
-      "
+      class="chat-message-in"
+      [ngClass]="{
+        'chat-message-out': message.direction === 'OUT'
+      }"
       [message]="message"
       [user]="message.direction === 'IN' ? chat?.receiver : currentUser"
     />
