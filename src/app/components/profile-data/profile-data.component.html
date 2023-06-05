@@ -1,11 +1,15 @@
-<div class="user-profile">
+<section class="profile-section">
+  <div class="user-profile">
     <img class="user-profile-image" [src]="userProfile.userImg" alt="notFound" />
     <div class="user-profile-data">
-      <h2 class="user-profile-name">{{ userProfile.userName }}</h2>
-      <p> {{ userProfile.address }}</p>
+      <h2>{{ userProfile.userName }}</h2>
+      <p>{{ userProfile.address }}</p>
+      <div class="button-container">
+        <div class="button-group">
+          <button class="follow-button">Follow</button>
+          <button class="message-button">Message</button>
+        </div>
+      </div>
     </div>
-<div class="button-container">
-  <button class="follow-button">Follow</button>
-  <button class="message-button">Message</button>
-</div>
-  
+  </div>
+</section>

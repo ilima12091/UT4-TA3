@@ -1,84 +1,76 @@
-.user-profile-name {
-/*     position: absolute;
-    width: 92px;
-    height: 40px;
-    left: 245px;
-    top: 99px; */
-
-    font-family: 'Comfortaa';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 36px;
-    line-height: 40px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: -0.015em;
-
-    color: #000000;
+.profile-section {
+  align-items: center;
+  padding: 2% 5%;
 }
 
-.user-profile-data p{
-    
-    /* position: absolute;
-    width: 133px;
-    height: 15px;
-    left: 245px;
-    top: 154px; */
-    
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 13px;
-    line-height: 15px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    
-    color: #000000;
+.user-profile {
+  display: flex;
+  align-items: center;
+}
+
+.user-profile-image {
+  width: 151px;
+  height: 151px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.user-profile-data {
+  text-align: left;
+  margin-left: 10px;
+}
+
+.button-container {
+  display: flex;
+}
+
+.user-profile-data h2 {
+  font-family: 'Comfortaa', sans-serif;
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 40px;
+  color: #000000;
+  margin-bottom: 0;
+}
+
+.user-profile-data p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 13px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.follow-button,
+.message-button {
+  padding: 10px 60px; /* Aumenta el ancho de los botones */
+  font-size: 12px;
+  margin-right: 10px;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  line-height: 1;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  height: 52px;
+  border-radius: 6px;
+  border: 2px solid black;
 }
 
 .follow-button {
-    background-color: black;
-    color: white;
-    border: 2px solid #000000;
-    padding: 10px 20px;
-    cursor: pointer;
+  background-color: black;
+  color: white;
 }
-  
 
 .message-button {
-    background-color: white;
-    color: black;
-    border: 2px solid black;
-    padding: 10px 20px;
-    cursor: pointer;
+  background-color: white;
+  color: black;
 
-  }
-
-  .button-container {
-    display: flex;
-  }
-  
-  .follow-button, .message-button {
-    flex: 1;
-    margin-right: 10px;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 13px;
-    line-height: 15px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-
-    width: 142px;
-    height: 52px;
-    border-radius: 6px;
-  }
-  
+}
