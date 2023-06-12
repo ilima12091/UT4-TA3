@@ -1,4 +1,4 @@
-import { UserProfile } from '../interface/user-profile';
+import { UserProfile } from "./user-profile";
 import { Message } from './message';
 
 export interface Chat {

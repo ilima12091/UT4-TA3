@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
-
 import { CardComponent } from './components/card/card.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { NavBarItemsComponent } from './components/nav-bar/nav-bar-items/nav-bar-items.component';
@@ -14,6 +13,8 @@ import { SearchComponent } from './views/search/search.component';
 import { UploadPictureComponent } from './views/upload-picture/upload-picture.component';
 import { ChatsComponent } from './views/chats/chats.component';
 import { ProfileComponent } from './views/profile/profile.component';
+import { SearchContainerComponent } from './components/search-container/search-container.component';
+import { FormsModule } from '@angular/forms';
 import { ChatRowComponent } from './components/chat-row/chat-row.component';
 import { ChatComponent } from './views/chat/chat.component';
 import { MessageComponent } from './components/message/message.component';
@@ -31,11 +32,12 @@ import { MessageComponent } from './components/message/message.component';
     UploadPictureComponent,
     ChatsComponent,
     ProfileComponent,
+    SearchContainerComponent,
     ChatRowComponent,
     ChatComponent,
-    MessageComponent,
+    MessageComponent
   ],
-  imports: [HttpClientModule, AppRoutingModule, BrowserModule],
+  imports: [HttpClientModule, AppRoutingModule, BrowserModule, FormsModule],
   providers: [],
   bootstrap: [AppComponent],
 })

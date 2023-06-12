@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { UserProfile } from 'src/app/interface/user-profile';
+import { UserProfile } from 'src/app/interfaces/user-profile';
 import { Chat } from 'src/app/interfaces/chat';
 import { ChatsService } from 'src/app/services/chats-service/chats.service';
 

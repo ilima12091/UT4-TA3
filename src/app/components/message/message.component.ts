@@ -1,5 +1,5 @@
 import { Component, Input } from '@angular/core';
-import { UserProfile } from 'src/app/interface/user-profile';
+import { UserProfile } from 'src/app/interfaces/user-profile';
 import { Message } from 'src/app/interfaces/message';
 
 @Component({

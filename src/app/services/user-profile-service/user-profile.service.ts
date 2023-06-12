@@ -1,6 +1,5 @@
 import { Injectable } from '@angular/core';
-import { UserProfile } from '../../interface/user-profile';
-
+import { UserProfile } from 'src/app/interfaces/user-profile';
 @Injectable({
   providedIn: 'root',
 })

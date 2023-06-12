@@ -1,1 +1,14 @@
-<p>search works!</p>
+<section class="search">
+  <div class="search-header">
+    <h1 class="search-header-title">Search</h1>
+    <input
+      type="text"
+      class="search-bar"
+      (keyup.enter)="searchImages()"
+      [(ngModel)]="searchId"
+      placeholder="Search all photos"
+    />
+    <p class="search-header-description">All Results</p>
+  </div>
+  <app-search-container [searchResults]="searchResults"></app-search-container>
+</section>
